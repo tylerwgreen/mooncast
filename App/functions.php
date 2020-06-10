@@ -3,6 +3,23 @@ function baseUrl(){
 	return 'http://' . $_SERVER['SERVER_NAME'] . '/';
 }
 
+function loadConfig(){
+	$config = file_get_contents(DIR_APP . '.config');
+	$config = json_decode($config);
+	return $config;
+}
+
+function errorAsExceptionHandler(int $errno, string $errstr, string $errfile, int $errline, array $errcontext){
+	throw new Exception('Error (' . $errno . '): ' . $errstr . ' in ' . $errfile . ' on line ' . $errline);
+}
+
+function tidesDataGet(object $credentials, string $stationID, string $dateBegin, string $dateEnd){
+	$tidesApi = new TidesApi($credentials);
+	$data = $tidesApi->getTides($stationID, $dateBegin, $dateEnd);
+	return $data;
+}
+
+/*
 function weatherDataGet(object $credentials, string $stateZone){
 	$weatherData = array();
 	$zones = new Zones($credentials, $stateZone);
@@ -49,13 +66,4 @@ function weatherDataGetStateZones(){
 		'ID' => null,
 	];
 }
-
-function loadConfig(){
-	$config = file_get_contents(DIR_APP . '.config');
-	$config = json_decode($config);
-	return $config;
-}
-
-function errorAsExceptionHandler(int $errno, string $errstr, string $errfile, int $errline, array $errcontext){
-	throw new Exception('Error (' . $errno . '): ' . $errstr . ' in ' . $errfile . ' on line ' . $errline);
-}
+*/
