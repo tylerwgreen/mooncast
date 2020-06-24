@@ -9,9 +9,8 @@ date_default_timezone_set('America/Los_Angeles');
 define('DIR_BASE',	dirname(dirname(__FILE__)) . '/');
 define('DIR_APP',	DIR_BASE . 'App/');
 require(DIR_APP . 'functions.php');
-require(DIR_APP . 'TidesApi/TidesApi.php');
 require(DIR_APP . 'Calendar/Calendar.php');
-// require(DIR_APP . 'WeatherApi/WeatherApi.php');
+require(DIR_APP . 'Moon/Moon.php');
 
 set_error_handler('errorAsExceptionHandler');
 
@@ -30,7 +29,7 @@ define('TEMPLATE_HEADER',	DIR_TEMPLATE	. 'header.php');
 define('TEMPLATE_FOOTER',	DIR_TEMPLATE	. 'footer.php');
 
 // files
-define('TIDES_CACHE_FILE_BASE',	DIR_DATA . 'tides-');
+// define('TIDES_CACHE_FILE_BASE',	DIR_DATA . 'tides-');
 
 define('DEBUG',		true);
 // define('DEBUG',		false);

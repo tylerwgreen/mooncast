@@ -2,7 +2,56 @@ body#map{
 	@controls-z-index:10000;
 	width:100%;
 	height:100%;
-	#data-container{
+	#date-display{
+		@height:30px;
+		z-index:@controls-z-index;
+		width:100%;
+		height:@height;
+		position:absolute;
+		top:0;
+		left:0;
+		background-color:@clr-white;
+		span{
+			display:block;
+			line-height:@height;
+			text-align:center;
+		}
+	}
+	#map-container{
+		width:100%;
+		height:100%;
+		position:absolute;
+		top:0;
+		left:0;
+		background-color:@clr-white;
+	}
+	#date-slider{
+		@date-slider-height:30px;
+		z-index:@controls-z-index;
+		position:absolute;
+		bottom:0;
+		left:0;
+		width:100%;
+		display:block;
+		width:100%;
+		height:@date-slider-height;
+		background-color:@clr-white;
+		padding:10px 30px;
+		#date-slider-slider{
+			height:10px;
+			#date-slider-custom-handle{
+				width: 40px;
+				height: 20px;
+				top: 50%;
+				margin-top: -10px;
+				margin-left: -25px;
+				text-align: center;
+				line-height: 18px;
+				font-size:12px;
+			}
+		}
+	}
+	/* #data-container{
 		@data-container-height:30px;
 		z-index:@controls-z-index;
 		#weather-selector{
@@ -128,41 +177,8 @@ body#map{
 				border-right:solid 1px @clr-gray;
 			}
 		}
-	}
-	#map-container{
-		width:100%;
-		height:100%;
-		position:absolute;
-		top:0;
-		left:0;
-	}
-	#period-selector{
-		@period-selector-height:30px;
-		z-index:@controls-z-index;
-		position:absolute;
-		bottom:0;
-		left:0;
-		width:100%;
-		display:block;
-		width:100%;
-		height:@period-selector-height;
-		background-color:@clr-white;
-		padding:10px 30px;
-		#period-selector-slider{
-			height:10px;
-			#period-selector-custom-handle{
-				width: 40px;
-				height: 20px;
-				top: 50%;
-				margin-top: -10px;
-				margin-left: -25px;
-				text-align: center;
-				line-height: 18px;
-				font-size:12px;
-			}
-		}
-	}
-	#forecast-modal{
+	} */
+	/* #forecast-modal{
 		@controls-height: 30px;
 		display:none;
 		position:absolute;
@@ -288,5 +304,5 @@ body#map{
 				}
 			}
 		}
-	}
+	} */
 }

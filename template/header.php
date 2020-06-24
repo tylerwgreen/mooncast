@@ -2,8 +2,8 @@
 <html class="no-js" lang="">
 <head>
 	<meta charset="utf-8">
-	<title>Fogcast</title>
-	<meta name="description" content="Fogcast">
+	<title>Mooncast</title>
+	<meta name="description" content="Mooncast">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
 	<?php if(USE_LESS): ?>
