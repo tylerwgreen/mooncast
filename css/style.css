@@ -2,7 +2,7 @@
    v2.0 | 20110126
    License: none (public domain)
 */
-/* line 6, http://fogcast.local/less/imports/reset.less */
+/* line 6, http://mooncast.local/less/imports/reset.less */
 html,
 body,
 div,
@@ -92,7 +92,7 @@ video {
   vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-/* line 27, http://fogcast.local/less/imports/reset.less */
+/* line 27, http://mooncast.local/less/imports/reset.less */
 article,
 aside,
 details,
@@ -106,21 +106,21 @@ nav,
 section {
   display: block;
 }
-/* line 31, http://fogcast.local/less/imports/reset.less */
+/* line 31, http://mooncast.local/less/imports/reset.less */
 body {
   line-height: 1;
 }
-/* line 34, http://fogcast.local/less/imports/reset.less */
+/* line 34, http://mooncast.local/less/imports/reset.less */
 ol,
 ul {
   list-style: none;
 }
-/* line 37, http://fogcast.local/less/imports/reset.less */
+/* line 37, http://mooncast.local/less/imports/reset.less */
 blockquote,
 q {
   quotes: none;
 }
-/* line 40, http://fogcast.local/less/imports/reset.less */
+/* line 40, http://mooncast.local/less/imports/reset.less */
 blockquote:before,
 blockquote:after,
 q:before,
@@ -128,7 +128,7 @@ q:after {
   content: '';
   content: none;
 }
-/* line 45, http://fogcast.local/less/imports/reset.less */
+/* line 45, http://mooncast.local/less/imports/reset.less */
 table {
   border-collapse: collapse;
   border-spacing: 0;
@@ -140,7 +140,7 @@ table {
  * 1. Correct the line height in all browsers.
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
-/* line 11, http://fogcast.local/less/imports/normalize.less */
+/* line 11, http://mooncast.local/less/imports/normalize.less */
 html {
   line-height: 1.15;
   /* 1 */
@@ -152,14 +152,14 @@ html {
 /**
  * Remove the margin in all browsers.
  */
-/* line 23, http://fogcast.local/less/imports/normalize.less */
+/* line 23, http://mooncast.local/less/imports/normalize.less */
 body {
   margin: 0;
 }
 /**
  * Render the `main` element consistently in IE.
  */
-/* line 31, http://fogcast.local/less/imports/normalize.less */
+/* line 31, http://mooncast.local/less/imports/normalize.less */
 main {
   display: block;
 }
@@ -167,7 +167,7 @@ main {
  * Correct the font size and margin on `h1` elements within `section` and
  * `article` contexts in Chrome, Firefox, and Safari.
  */
-/* line 40, http://fogcast.local/less/imports/normalize.less */
+/* line 40, http://mooncast.local/less/imports/normalize.less */
 h1 {
   font-size: 2em;
   margin: 0.67em 0;
@@ -178,7 +178,7 @@ h1 {
  * 1. Add the correct box sizing in Firefox.
  * 2. Show the overflow in Edge and IE.
  */
-/* line 53, http://fogcast.local/less/imports/normalize.less */
+/* line 53, http://mooncast.local/less/imports/normalize.less */
 hr {
   box-sizing: content-box;
   /* 1 */
@@ -191,7 +191,7 @@ hr {
  * 1. Correct the inheritance and scaling of font size in all browsers.
  * 2. Correct the odd `em` font sizing in all browsers.
  */
-/* line 64, http://fogcast.local/less/imports/normalize.less */
+/* line 64, http://mooncast.local/less/imports/normalize.less */
 pre {
   font-family: monospace, monospace;
   /* 1 */
@@ -203,7 +203,7 @@ pre {
 /**
  * Remove the gray background on active links in IE 10.
  */
-/* line 76, http://fogcast.local/less/imports/normalize.less */
+/* line 76, http://mooncast.local/less/imports/normalize.less */
 a {
   background-color: transparent;
 }
@@ -211,7 +211,7 @@ a {
  * 1. Remove the bottom border in Chrome 57-
  * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
  */
-/* line 85, http://fogcast.local/less/imports/normalize.less */
+/* line 85, http://mooncast.local/less/imports/normalize.less */
 abbr[title] {
   border-bottom: none;
   /* 1 */
@@ -223,7 +223,7 @@ abbr[title] {
 /**
  * Add the correct font weight in Chrome, Edge, and Safari.
  */
-/* line 95, http://fogcast.local/less/imports/normalize.less */
+/* line 95, http://mooncast.local/less/imports/normalize.less */
 b,
 strong {
   font-weight: bolder;
@@ -232,7 +232,7 @@ strong {
  * 1. Correct the inheritance and scaling of font size in all browsers.
  * 2. Correct the odd `em` font sizing in all browsers.
  */
-/* line 105, http://fogcast.local/less/imports/normalize.less */
+/* line 105, http://mooncast.local/less/imports/normalize.less */
 code,
 kbd,
 samp {
@@ -244,7 +244,7 @@ samp {
 /**
  * Add the correct font size in all browsers.
  */
-/* line 116, http://fogcast.local/less/imports/normalize.less */
+/* line 116, http://mooncast.local/less/imports/normalize.less */
 small {
   font-size: 80%;
 }
@@ -252,7 +252,7 @@ small {
  * Prevent `sub` and `sup` elements from affecting the line height in
  * all browsers.
  */
-/* line 125, http://fogcast.local/less/imports/normalize.less */
+/* line 125, http://mooncast.local/less/imports/normalize.less */
 sub,
 sup {
   font-size: 75%;
@@ -260,11 +260,11 @@ sup {
   position: relative;
   vertical-align: baseline;
 }
-/* line 133, http://fogcast.local/less/imports/normalize.less */
+/* line 133, http://mooncast.local/less/imports/normalize.less */
 sub {
   bottom: -0.25em;
 }
-/* line 137, http://fogcast.local/less/imports/normalize.less */
+/* line 137, http://mooncast.local/less/imports/normalize.less */
 sup {
   top: -0.5em;
 }
@@ -273,7 +273,7 @@ sup {
 /**
  * Remove the border on images inside links in IE 10.
  */
-/* line 148, http://fogcast.local/less/imports/normalize.less */
+/* line 148, http://mooncast.local/less/imports/normalize.less */
 img {
   border-style: none;
 }
@@ -283,7 +283,7 @@ img {
  * 1. Change the font styles in all browsers.
  * 2. Remove the margin in Firefox and Safari.
  */
-/* line 160, http://fogcast.local/less/imports/normalize.less */
+/* line 160, http://mooncast.local/less/imports/normalize.less */
 button,
 input,
 optgroup,
@@ -302,7 +302,7 @@ textarea {
  * Show the overflow in IE.
  * 1. Show the overflow in Edge.
  */
-/* line 176, http://fogcast.local/less/imports/normalize.less */
+/* line 176, http://mooncast.local/less/imports/normalize.less */
 button,
 input {
   /* 1 */
@@ -312,7 +312,7 @@ input {
  * Remove the inheritance of text transform in Edge, Firefox, and IE.
  * 1. Remove the inheritance of text transform in Firefox.
  */
-/* line 186, http://fogcast.local/less/imports/normalize.less */
+/* line 186, http://mooncast.local/less/imports/normalize.less */
 button,
 select {
   /* 1 */
@@ -321,7 +321,7 @@ select {
 /**
  * Correct the inability to style clickable types in iOS and Safari.
  */
-/* line 195, http://fogcast.local/less/imports/normalize.less */
+/* line 195, http://mooncast.local/less/imports/normalize.less */
 button,
 [type="button"],
 [type="reset"],
@@ -331,7 +331,7 @@ button,
 /**
  * Remove the inner border and padding in Firefox.
  */
-/* line 206, http://fogcast.local/less/imports/normalize.less */
+/* line 206, http://mooncast.local/less/imports/normalize.less */
 button::-moz-focus-inner,
 [type="button"]::-moz-focus-inner,
 [type="reset"]::-moz-focus-inner,
@@ -342,7 +342,7 @@ button::-moz-focus-inner,
 /**
  * Restore the focus styles unset by the previous rule.
  */
-/* line 218, http://fogcast.local/less/imports/normalize.less */
+/* line 218, http://mooncast.local/less/imports/normalize.less */
 button:-moz-focusring,
 [type="button"]:-moz-focusring,
 [type="reset"]:-moz-focusring,
@@ -352,7 +352,7 @@ button:-moz-focusring,
 /**
  * Correct the padding in Firefox.
  */
-/* line 229, http://fogcast.local/less/imports/normalize.less */
+/* line 229, http://mooncast.local/less/imports/normalize.less */
 fieldset {
   padding: 0.35em 0.75em 0.625em;
 }
@@ -362,7 +362,7 @@ fieldset {
  * 3. Remove the padding so developers are not caught out when they zero out
  *    `fieldset` elements in all browsers.
  */
-/* line 240, http://fogcast.local/less/imports/normalize.less */
+/* line 240, http://mooncast.local/less/imports/normalize.less */
 legend {
   box-sizing: border-box;
   /* 1 */
@@ -380,14 +380,14 @@ legend {
 /**
  * Add the correct vertical alignment in Chrome, Firefox, and Opera.
  */
-/* line 253, http://fogcast.local/less/imports/normalize.less */
+/* line 253, http://mooncast.local/less/imports/normalize.less */
 progress {
   vertical-align: baseline;
 }
 /**
  * Remove the default vertical scrollbar in IE 10+.
  */
-/* line 261, http://fogcast.local/less/imports/normalize.less */
+/* line 261, http://mooncast.local/less/imports/normalize.less */
 textarea {
   overflow: auto;
 }
@@ -395,7 +395,7 @@ textarea {
  * 1. Add the correct box sizing in IE 10.
  * 2. Remove the padding in IE 10.
  */
-/* line 270, http://fogcast.local/less/imports/normalize.less */
+/* line 270, http://mooncast.local/less/imports/normalize.less */
 [type="checkbox"],
 [type="radio"] {
   box-sizing: border-box;
@@ -406,7 +406,7 @@ textarea {
 /**
  * Correct the cursor style of increment and decrement buttons in Chrome.
  */
-/* line 280, http://fogcast.local/less/imports/normalize.less */
+/* line 280, http://mooncast.local/less/imports/normalize.less */
 [type="number"]::-webkit-inner-spin-button,
 [type="number"]::-webkit-outer-spin-button {
   height: auto;
@@ -415,7 +415,7 @@ textarea {
  * 1. Correct the odd appearance in Chrome and Safari.
  * 2. Correct the outline style in Safari.
  */
-/* line 290, http://fogcast.local/less/imports/normalize.less */
+/* line 290, http://mooncast.local/less/imports/normalize.less */
 [type="search"] {
   -webkit-appearance: textfield;
   /* 1 */
@@ -425,7 +425,7 @@ textarea {
 /**
  * Remove the inner padding in Chrome and Safari on macOS.
  */
-/* line 299, http://fogcast.local/less/imports/normalize.less */
+/* line 299, http://mooncast.local/less/imports/normalize.less */
 [type="search"]::-webkit-search-decoration {
   -webkit-appearance: none;
 }
@@ -433,7 +433,7 @@ textarea {
  * 1. Correct the inability to style clickable types in iOS and Safari.
  * 2. Change font properties to `inherit` in Safari.
  */
-/* line 308, http://fogcast.local/less/imports/normalize.less */
+/* line 308, http://mooncast.local/less/imports/normalize.less */
 ::-webkit-file-upload-button {
   -webkit-appearance: button;
   /* 1 */
@@ -445,14 +445,14 @@ textarea {
 /*
  * Add the correct display in Edge, IE 10+, and Firefox.
  */
-/* line 320, http://fogcast.local/less/imports/normalize.less */
+/* line 320, http://mooncast.local/less/imports/normalize.less */
 details {
   display: block;
 }
 /*
  * Add the correct display in all browsers.
  */
-/* line 328, http://fogcast.local/less/imports/normalize.less */
+/* line 328, http://mooncast.local/less/imports/normalize.less */
 summary {
   display: list-item;
 }
@@ -461,24 +461,24 @@ summary {
 /**
  * Add the correct display in IE 10+.
  */
-/* line 339, http://fogcast.local/less/imports/normalize.less */
+/* line 339, http://mooncast.local/less/imports/normalize.less */
 template {
   display: none;
 }
 /**
  * Add the correct display in IE 10.
  */
-/* line 347, http://fogcast.local/less/imports/normalize.less */
+/* line 347, http://mooncast.local/less/imports/normalize.less */
 [hidden] {
   display: none;
 }
-/* line 7, http://fogcast.local/less/style.less */
+/* line 7, http://mooncast.local/less/style.less */
 html {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
-/* line 10, http://fogcast.local/less/style.less */
+/* line 10, http://mooncast.local/less/style.less */
 *,
 *:before,
 *:after {
@@ -486,196 +486,336 @@ html {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
-/* line 14, http://fogcast.local/less/style.less */
+/* line 14, http://mooncast.local/less/style.less */
 html {
   width: 100%;
   height: 100%;
 }
-/* line 19, http://fogcast.local/less/style.less */
+/* line 19, http://mooncast.local/less/style.less */
 body {
   margin: 0 auto;
+  width: 100%;
+  height: 100%;
 }
 @media only screen and (min-width: 769px) and (max-width: 1440px) {
-  /* line 21, http://fogcast.local/less/style.less */
+  /* line 23, http://mooncast.local/less/style.less */
   body {
     background-color: #ff8d8d;
   }
 }
 @media only screen and (min-width: 426px) and (max-width: 768px) {
-  /* line 24, http://fogcast.local/less/style.less */
+  /* line 26, http://mooncast.local/less/style.less */
   body {
     background-color: #c385c3;
   }
 }
 @media only screen and (min-width: 300px) and (max-width: 425px) {
-  /* line 27, http://fogcast.local/less/style.less */
+  /* line 29, http://mooncast.local/less/style.less */
   body {
     background-color: #85b9c3;
   }
 }
-/* line 1, http://fogcast.local/less/template/map.less */
+/* line 1, http://mooncast.local/less/template/map.less */
 body#map {
   width: 100%;
   height: 100%;
+  /* #data-container{
+		@data-container-height:30px;
+		z-index:@controls-z-index;
+		#weather-selector{
+			height:@data-container-height;
+			line-height:@data-container-height;
+			overflow:hidden;
+			ul{
+				height:@data-container-height;
+				li{
+					@darken-amount: 20%;
+					height:@data-container-height;
+					display:block;
+					float:left;
+					text-align:center;
+					background-color:@clr-default;
+					padding:0 2.5%;
+					width:25%;
+					&:hover{
+						cursor:pointer;
+					}
+					&#weather-type-fog{
+						background-color:darken(@clr-fog, @darken-amount);
+						&.active{
+							background-color:@clr-fog;
+						}
+					}
+					&#weather-type-thunder{
+						background-color:darken(@clr-thunder, @darken-amount);
+						&.active{
+							background-color:@clr-thunder;
+						}
+					}
+					&#weather-type-snow{
+						background-color:darken(@clr-snow, @darken-amount);
+						&.active{
+							background-color:@clr-snow;
+						}
+					}
+					&#weather-type-rain{
+						background-color:darken(@clr-rain, @darken-amount);
+						&.active{
+							background-color:@clr-rain;
+						}
+					}
+				}
+			}
+		}
+		#zone-data{
+			position:absolute;
+			top:0;
+			left:0;
+			width:100%;
+			height:@data-container-height;
+			background-color:@clr-white;
+			line-height:@data-container-height;
+			overflow:hidden;
+			.zone-data-item{
+				float:left;
+				height:@data-container-height;
+				padding:0 5px;
+				a{
+					text-decoration:none;
+					color:@clr-black;
+					&:hover{
+						text-decoration:underline;
+					}
+				}
+			}
+			#zone-id{
+				width:70px;
+				text-align:center;
+			}
+			#zone-overview{
+				width:200px;
+				float:left;
+				display:block;
+				li{
+					display:block;
+					float:left;
+					text-align:center;
+					background-color:@clr-default;
+					padding:0 2.5%;
+					height:@data-container-height;
+					&#zone-overview-fog{
+						width:18%;
+					}
+					&#zone-overview-thunder{
+						width:32%;
+					}
+					&#zone-overview-snow{
+						width:25%;
+					}
+					&#zone-overview-rain{
+						width:25%;
+					}
+				}
+			}
+			#zone-updated{
+				width:180px;
+				text-align:center;
+				border-right:solid 1px @clr-gray;
+			}
+			#zone-name{
+				
+			}
+		}
+		#period-data{
+			position:absolute;
+			top:0;
+			left:0;
+			width:100%;
+			height:@data-container-height;
+			background-color:@clr-white;
+			line-height:@data-container-height;
+			overflow:hidden;
+			li{
+				display:block;
+				float:left;
+				text-align:center;
+				// background-color:@clr-default;
+				padding:0 5px;
+				height:@data-container-height;
+				border-right:solid 1px @clr-gray;
+			}
+		}
+	} */
+  /* #forecast-modal{
+		@controls-height: 30px;
+		display:none;
+		position:absolute;
+		width:100%;
+		height:100%;
+		background-color:darken(@clr-white, 10%);
+		z-index:@controls-z-index + 1;
+		#forecast-modal-controls{
+			width:100%;
+			display:block;
+			text-align:center;
+			border-bottom:solid 1px @clr-gray;
+			line-height:@controls-height;
+			position:fixed;
+			top:0;
+			left:0;
+			a{
+				height:@controls-height;
+				display:block;
+				width:100%;
+				color:@clr-black;
+				text-decoration:none;
+				cursor:pointer;
+				background-color:darken(@clr-white, 10%);
+				&:hover{
+					background-color:@clr-white;
+				}
+			}
+		}
+		#forecast-data{
+			@height: 30px;
+			// margin-top:@controls-height;
+			clear:both;
+			width:100%;
+			display:block;
+			text-align:center;
+			height:@height;
+			line-height:@height;
+			background-color:@clr-white;
+			li{
+				height:@height;
+				display:block;
+				float:left;
+				border-right:solid 1px @clr-gray;
+				a{
+					display:block;
+					text-decoration:none;
+					color:@clr-black;
+					height:@height;
+					line-height:@height;
+					&:hover{
+						background-color:darken(@clr-white, 10%);
+					}
+				}
+				&#forecast-data-id-wrap{
+					width:70px;
+					@media @mobile{
+						width:50%;
+					}
+				}
+				&#forecast-data-updated{
+					width:180px;
+					@media @mobile{
+						width:50%;
+					}
+				}
+				&#forecast-data-name-wrap{
+					border-right:none;
+					@media @mobile{
+						clear:left;
+						background-color:@clr-white;
+						width:100%;
+						border-top:solid 1px @clr-gray;
+					}
+					a{
+						padding:0 5px;
+					}
+				}
+			}
+		}
+		#forecast-periods{
+			clear:both;
+			// wrap
+			li{
+				h3{
+					@height:28px;
+					background-color:@clr-black;
+					color:@clr-white;
+					line-height:@height;
+					height:@height;
+					padding:0 5px;
+					font-weight:bold;
+				}
+				ul#weather-types{
+					@height:24px;
+					line-height:@height;
+					height:@height;
+					width:100%;
+					text-align:center;
+					li{
+						height:@height;
+						display:block;
+						width:25%;
+						float:left;
+						background-color:@clr-default;
+						&.has-fog{
+							background-color:@clr-fog;
+						}
+						&.has-thunder{
+							background-color:@clr-thunder;
+						}
+						&.has-snow{
+							background-color:@clr-snow;
+						}
+						&.has-rain{
+							background-color:@clr-rain;
+						}
+					}
+				}
+				p.forecast{
+					padding:8px 10px;
+					background-color:@clr-white;
+				}
+			}
+		}
+	} */
 }
-/* line 5, http://fogcast.local/less/template/map.less */
-body#map #data-container {
+/* line 5, http://mooncast.local/less/template/map.less */
+body#map ul#date-display {
   z-index: 10000;
-}
-/* line 8, http://fogcast.local/less/template/map.less */
-body#map #data-container #weather-selector {
+  width: 100%;
   height: 30px;
-  line-height: 30px;
-  overflow: hidden;
-}
-/* line 12, http://fogcast.local/less/template/map.less */
-body#map #data-container #weather-selector ul {
-  height: 30px;
-}
-/* line 14, http://fogcast.local/less/template/map.less */
-body#map #data-container #weather-selector ul li {
-  height: 30px;
-  display: block;
-  float: left;
-  text-align: center;
-  background-color: #666666;
-  padding: 0 2.5%;
-  width: 25%;
-}
-/* line 23, http://fogcast.local/less/template/map.less */
-body#map #data-container #weather-selector ul li:hover {
-  cursor: pointer;
-}
-/* line 26, http://fogcast.local/less/template/map.less */
-body#map #data-container #weather-selector ul li#weather-type-fog {
-  background-color: #358b35;
-}
-/* line 28, http://fogcast.local/less/template/map.less */
-body#map #data-container #weather-selector ul li#weather-type-fog.active {
-  background-color: #63c363;
-}
-/* line 32, http://fogcast.local/less/template/map.less */
-body#map #data-container #weather-selector ul li#weather-type-thunder {
-  background-color: #974b97;
-}
-/* line 34, http://fogcast.local/less/template/map.less */
-body#map #data-container #weather-selector ul li#weather-type-thunder.active {
-  background-color: #c385c3;
-}
-/* line 38, http://fogcast.local/less/template/map.less */
-body#map #data-container #weather-selector ul li#weather-type-snow {
-  background-color: #4b8b97;
-}
-/* line 40, http://fogcast.local/less/template/map.less */
-body#map #data-container #weather-selector ul li#weather-type-snow.active {
-  background-color: #85b9c3;
-}
-/* line 44, http://fogcast.local/less/template/map.less */
-body#map #data-container #weather-selector ul li#weather-type-rain {
-  background-color: #ff2727;
-}
-/* line 46, http://fogcast.local/less/template/map.less */
-body#map #data-container #weather-selector ul li#weather-type-rain.active {
-  background-color: #ff8d8d;
-}
-/* line 53, http://fogcast.local/less/template/map.less */
-body#map #data-container #zone-data {
   position: absolute;
   top: 0;
   left: 0;
-  width: 100%;
-  height: 30px;
+  display: block;
   background-color: #ffffff;
+}
+/* line 15, http://mooncast.local/less/template/map.less */
+body#map ul#date-display li {
+  display: block;
+  float: left;
+  height: 30px;
   line-height: 30px;
-  overflow: hidden;
-}
-/* line 62, http://fogcast.local/less/template/map.less */
-body#map #data-container #zone-data .zone-data-item {
-  float: left;
-  height: 30px;
-  padding: 0 5px;
-}
-/* line 66, http://fogcast.local/less/template/map.less */
-body#map #data-container #zone-data .zone-data-item a {
-  text-decoration: none;
-  color: #000000;
-}
-/* line 69, http://fogcast.local/less/template/map.less */
-body#map #data-container #zone-data .zone-data-item a:hover {
-  text-decoration: underline;
-}
-/* line 74, http://fogcast.local/less/template/map.less */
-body#map #data-container #zone-data #zone-id {
-  width: 70px;
-  text-align: center;
-}
-/* line 78, http://fogcast.local/less/template/map.less */
-body#map #data-container #zone-data #zone-overview {
-  width: 200px;
-  float: left;
-  display: block;
-}
-/* line 82, http://fogcast.local/less/template/map.less */
-body#map #data-container #zone-data #zone-overview li {
-  display: block;
-  float: left;
-  text-align: center;
-  background-color: #666666;
-  padding: 0 2.5%;
-  height: 30px;
-}
-/* line 89, http://fogcast.local/less/template/map.less */
-body#map #data-container #zone-data #zone-overview li#zone-overview-fog {
-  width: 18%;
-}
-/* line 92, http://fogcast.local/less/template/map.less */
-body#map #data-container #zone-data #zone-overview li#zone-overview-thunder {
-  width: 32%;
-}
-/* line 95, http://fogcast.local/less/template/map.less */
-body#map #data-container #zone-data #zone-overview li#zone-overview-snow {
-  width: 25%;
-}
-/* line 98, http://fogcast.local/less/template/map.less */
-body#map #data-container #zone-data #zone-overview li#zone-overview-rain {
-  width: 25%;
-}
-/* line 103, http://fogcast.local/less/template/map.less */
-body#map #data-container #zone-data #zone-updated {
-  width: 180px;
-  text-align: center;
-  border-right: solid 1px #999999;
-}
-/* line 112, http://fogcast.local/less/template/map.less */
-body#map #data-container #period-data {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 30px;
+  text-align: left;
+  width: 16.66666667%;
   background-color: #ffffff;
-  line-height: 30px;
-  overflow: hidden;
+  font-weight: bold;
 }
-/* line 121, http://fogcast.local/less/template/map.less */
-body#map #data-container #period-data li {
-  display: block;
-  float: left;
-  text-align: center;
-  padding: 0 5px;
-  height: 30px;
-  border-right: solid 1px #999999;
+/* line 25, http://mooncast.local/less/template/map.less */
+body#map ul#date-display li#month-selector {
+  padding-left: 10px;
 }
-/* line 132, http://fogcast.local/less/template/map.less */
+/* line 33, http://mooncast.local/less/template/map.less */
+body#map ul#date-display li span {
+  padding-left: 5px;
+  font-weight: initial;
+}
+/* line 39, http://mooncast.local/less/template/map.less */
 body#map #map-container {
   width: 100%;
   height: 100%;
   position: absolute;
   top: 0;
   left: 0;
+  background-color: #ffffff;
 }
-/* line 139, http://fogcast.local/less/template/map.less */
-body#map #period-selector {
+/* line 47, http://mooncast.local/less/template/map.less */
+body#map #date-slider {
   z-index: 10000;
   position: absolute;
   bottom: 0;
@@ -686,12 +826,12 @@ body#map #period-selector {
   background-color: #ffffff;
   padding: 10px 30px;
 }
-/* line 151, http://fogcast.local/less/template/map.less */
-body#map #period-selector #period-selector-slider {
+/* line 59, http://mooncast.local/less/template/map.less */
+body#map #date-slider #date-slider-slider {
   height: 10px;
 }
-/* line 153, http://fogcast.local/less/template/map.less */
-body#map #period-selector #period-selector-slider #period-selector-custom-handle {
+/* line 61, http://mooncast.local/less/template/map.less */
+body#map #date-slider #date-slider-slider #date-slider-custom-handle {
   width: 40px;
   height: 20px;
   top: 50%;
@@ -701,152 +841,52 @@ body#map #period-selector #period-selector-slider #period-selector-custom-handle
   line-height: 18px;
   font-size: 12px;
 }
-/* line 165, http://fogcast.local/less/template/map.less */
-body#map #forecast-modal {
+/* line 73, http://mooncast.local/less/template/map.less */
+body#map #loader-wrap {
   display: none;
+}
+/* line 75, http://mooncast.local/less/template/map.less */
+body#map #loader-wrap #loader {
+  width: 128px;
+  height: 125px;
+  background-color: #ffffff;
+  background: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#cccccc));
+  background: -webkit-linear-gradient(top, #ffffff, #cccccc);
+  background: -moz-linear-gradient(top, #ffffff, #cccccc);
+  background: -ms-linear-gradient(top, #ffffff, #cccccc);
+  background: -o-linear-gradient(top, #ffffff, #cccccc);
+  z-index: 10002;
+  text-align: center;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-border-radius: 64px;
+  -moz-border-radius: 64px;
+  border-radius: 64px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  -webkit-box-shadow: 0px 10px 25px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 10px 25px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 10px 25px 0px rgba(0, 0, 0, 0.75);
+  border: solid 2px #000000;
+}
+/* line 89, http://mooncast.local/less/template/map.less */
+body#map #loader-wrap #loader img {
+  display: block;
+  position: relative;
+  width: 64px;
+  height: 64px;
+  margin-left: 32px;
+  top: 30px;
+  left: 0;
+}
+/* line 99, http://mooncast.local/less/template/map.less */
+body#map #loader-wrap #loader-bg {
   position: absolute;
   width: 100%;
   height: 100%;
-  background-color: #e6e6e6;
+  background-color: rgba(26, 26, 26, 0.5);
   z-index: 10001;
-}
-/* line 173, http://fogcast.local/less/template/map.less */
-body#map #forecast-modal #forecast-modal-controls {
-  width: 100%;
-  display: block;
-  text-align: center;
-  border-bottom: solid 1px #999999;
-  line-height: 30px;
-  position: fixed;
-  top: 0;
-  left: 0;
-}
-/* line 182, http://fogcast.local/less/template/map.less */
-body#map #forecast-modal #forecast-modal-controls a {
-  height: 30px;
-  display: block;
-  width: 100%;
-  color: #000000;
-  text-decoration: none;
-  cursor: pointer;
-  background-color: #e6e6e6;
-}
-/* line 190, http://fogcast.local/less/template/map.less */
-body#map #forecast-modal #forecast-modal-controls a:hover {
-  background-color: #ffffff;
-}
-/* line 195, http://fogcast.local/less/template/map.less */
-body#map #forecast-modal #forecast-data {
-  clear: both;
-  width: 100%;
-  display: block;
-  text-align: center;
-  height: 30px;
-  line-height: 30px;
-  background-color: #ffffff;
-}
-/* line 205, http://fogcast.local/less/template/map.less */
-body#map #forecast-modal #forecast-data li {
-  height: 30px;
-  display: block;
-  float: left;
-  border-right: solid 1px #999999;
-}
-/* line 210, http://fogcast.local/less/template/map.less */
-body#map #forecast-modal #forecast-data li a {
-  display: block;
-  text-decoration: none;
-  color: #000000;
-  height: 30px;
-  line-height: 30px;
-}
-/* line 216, http://fogcast.local/less/template/map.less */
-body#map #forecast-modal #forecast-data li a:hover {
-  background-color: #e6e6e6;
-}
-/* line 220, http://fogcast.local/less/template/map.less */
-body#map #forecast-modal #forecast-data li#forecast-data-id-wrap {
-  width: 70px;
-}
-@media only screen and (min-width: 300px) and (max-width: 425px) {
-  /* line 222, http://fogcast.local/less/template/map.less */
-  body#map #forecast-modal #forecast-data li#forecast-data-id-wrap {
-    width: 50%;
-  }
-}
-/* line 226, http://fogcast.local/less/template/map.less */
-body#map #forecast-modal #forecast-data li#forecast-data-updated {
-  width: 180px;
-}
-@media only screen and (min-width: 300px) and (max-width: 425px) {
-  /* line 228, http://fogcast.local/less/template/map.less */
-  body#map #forecast-modal #forecast-data li#forecast-data-updated {
-    width: 50%;
-  }
-}
-/* line 232, http://fogcast.local/less/template/map.less */
-body#map #forecast-modal #forecast-data li#forecast-data-name-wrap {
-  border-right: none;
-}
-@media only screen and (min-width: 300px) and (max-width: 425px) {
-  /* line 234, http://fogcast.local/less/template/map.less */
-  body#map #forecast-modal #forecast-data li#forecast-data-name-wrap {
-    clear: left;
-    background-color: #ffffff;
-    width: 100%;
-    border-top: solid 1px #999999;
-  }
-}
-/* line 240, http://fogcast.local/less/template/map.less */
-body#map #forecast-modal #forecast-data li#forecast-data-name-wrap a {
-  padding: 0 5px;
-}
-/* line 246, http://fogcast.local/less/template/map.less */
-body#map #forecast-modal #forecast-periods {
-  clear: both;
-}
-/* line 250, http://fogcast.local/less/template/map.less */
-body#map #forecast-modal #forecast-periods li h3 {
-  background-color: #000000;
-  color: #ffffff;
-  line-height: 28px;
-  height: 28px;
-  padding: 0 5px;
-  font-weight: bold;
-}
-/* line 259, http://fogcast.local/less/template/map.less */
-body#map #forecast-modal #forecast-periods li ul#weather-types {
-  line-height: 24px;
-  height: 24px;
-  width: 100%;
-  text-align: center;
-}
-/* line 265, http://fogcast.local/less/template/map.less */
-body#map #forecast-modal #forecast-periods li ul#weather-types li {
-  height: 24px;
-  display: block;
-  width: 25%;
-  float: left;
-  background-color: #666666;
-}
-/* line 271, http://fogcast.local/less/template/map.less */
-body#map #forecast-modal #forecast-periods li ul#weather-types li.has-fog {
-  background-color: #63c363;
-}
-/* line 274, http://fogcast.local/less/template/map.less */
-body#map #forecast-modal #forecast-periods li ul#weather-types li.has-thunder {
-  background-color: #c385c3;
-}
-/* line 277, http://fogcast.local/less/template/map.less */
-body#map #forecast-modal #forecast-periods li ul#weather-types li.has-snow {
-  background-color: #85b9c3;
-}
-/* line 280, http://fogcast.local/less/template/map.less */
-body#map #forecast-modal #forecast-periods li ul#weather-types li.has-rain {
-  background-color: #ff8d8d;
-}
-/* line 285, http://fogcast.local/less/template/map.less */
-body#map #forecast-modal #forecast-periods li p.forecast {
-  padding: 8px 10px;
-  background-color: #ffffff;
 }

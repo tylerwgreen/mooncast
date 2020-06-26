@@ -13,6 +13,18 @@ function errorAsExceptionHandler(int $errno, string $errstr, string $errfile, in
 	throw new Exception('Error (' . $errno . '): ' . $errstr . ' in ' . $errfile . ' on line ' . $errline);
 }
 
+function getMonths($numOfMonths = 12){
+	$months = [];
+	$currentMonth = (int)date('m');
+	for($x = $currentMonth; $x < $currentMonth + $numOfMonths; $x++){
+		$monthTime		= mktime(0, 0, 0, $x, 1);
+		$date			= date('Y-m-d', $monthTime);
+		$monthName		= date('M', $monthTime);
+		$months[$date]	= $monthName;
+	}
+	return $months;
+}
+
 /* function tidesDataGet(object $credentials, string $stationID, string $dateBegin, string $dateEnd){
 	$tidesApi = new TidesApi($credentials);
 	$data = $tidesApi->getTides($stationID, $dateBegin, $dateEnd);

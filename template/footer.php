@@ -15,5 +15,6 @@
 		<script>less.watch();</script>
 	<?php endif; ?>
 	<script src="<?= URL_JS; ?>script.js"></script>
+	<?= isset($footerScripts) ? $footerScripts : null; ?>
 </body>
 </html>
