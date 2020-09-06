@@ -1,5 +1,5 @@
 <?php
-require(dirname(__FILE__) . '/App/App.php');
+require(dirname(__FILE__) . '/../App/App.php');
 require(TEMPLATE_HEADER);
 ?>
 <body id="map">

@@ -15,7 +15,7 @@ require(DIR_APP . 'Moon/Moon.php');
 set_error_handler('errorAsExceptionHandler');
 
 // define app vars
-define('DIR_DATA',		DIR_BASE	. 'data/');
+// define('DIR_DATA',		DIR_BASE	. 'data/');
 
 define('URL_BASE',	baseUrl());
 define('URL_IMG',	baseUrl()	. 'img/');

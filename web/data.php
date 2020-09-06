@@ -1,5 +1,5 @@
 <?php
-require(dirname(__FILE__) . '/App/App.php');
+require(dirname(__FILE__) . '/../App/App.php');
 try{
 	// header($_SERVER['SERVER_PROTOCOL'] . ' 200 Success', true, 200);
 	// header('Content-type:application/json;charset=utf-8');
